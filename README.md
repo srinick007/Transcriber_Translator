@@ -13,6 +13,11 @@ To use Transcriber_Translator, you will need Python 3.9 as some dependencies are
 
 pip install -r requirements.txt
 
+You will aldo need to install whisper and also download lid218e.bin and keep it the same directory as the notebook
+
+!pip install git+https://github.com/openai/whisper.git 
+!wget https://dl.fbaipublicfiles.com/nllb/lid/lid218e.bin
+
 to run the gradio interface you just need the run the gradio cell
 
 ![image](https://user-images.githubusercontent.com/97779349/227277903-c0ec446c-b07b-4771-8776-0f798c5169e8.png)
