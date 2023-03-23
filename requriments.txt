@@ -1,0 +1,8 @@
+tensorflow==2.10
+fasttext
+torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu117
+wget
+sentencepiece
+transformers
+pyaudio
+gradio
