@@ -17,6 +17,7 @@ pip install -r requirements.txt
 You will also need to install whisper and also download lid218e.bin and keep it the same directory as the notebook
 
 !pip install git+https://github.com/openai/whisper.git 
+
 !wget https://dl.fbaipublicfiles.com/nllb/lid/lid218e.bin
 
 you can see the languages codes for NLLB here https://github.com/facebookresearch/flores/blob/main/flores200/README.md#languages-in-flores-200
