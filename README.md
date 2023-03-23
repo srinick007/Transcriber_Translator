@@ -8,12 +8,13 @@ Language identification using Facebook's No Language Left Behind model
 Translation into 96 different languages
 User-friendly interface built with Gradio
 Support for audio recording
+
 Installation
 To use Transcriber_Translator, you will need Python 3.9 as some dependencies are not supported in later versions. To install the required dependencies, you can use pip:
 
 pip install -r requirements.txt
 
-You will aldo need to install whisper and also download lid218e.bin and keep it the same directory as the notebook
+You will also need to install whisper and also download lid218e.bin and keep it the same directory as the notebook
 
 !pip install git+https://github.com/openai/whisper.git 
 !wget https://dl.fbaipublicfiles.com/nllb/lid/lid218e.bin
